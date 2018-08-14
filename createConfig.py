@@ -9,6 +9,7 @@ for envVar in os.environ:
 		key = envVar[3:]
 		jsonPath = key.split("_")
 		lastKey = jsonPath.pop()
+		print("Setting " + ".".join(jsonPath) + "." + lastKey)
 		targetElement = config
 		for pathElement in jsonPath:
 			targetElement = targetElement[pathElement]

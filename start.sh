@@ -13,6 +13,7 @@ echo "Downloading $URL"
 wget $URL
 
 tar -zxf $FILE
+rm $FILE
 
 cd mattermost
-bin/platform --config=../config.json
+bin/mattermost --config=../config.json
