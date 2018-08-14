@@ -1,6 +1,6 @@
 {
     "ServiceSettings": {
-        "SiteURL": "lala",
+        "SiteURL": "",
         "WebsocketURL": "",
         "LicenseFileLocation": "",
         "ListenAddress": ":8065",
