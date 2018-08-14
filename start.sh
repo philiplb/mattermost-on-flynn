@@ -14,4 +14,5 @@ wget $URL
 
 tar -zxf $FILE
 
-mattermost/bin/platform --config=config.json
+cd mattermost
+bin/platform --config=../config.json
