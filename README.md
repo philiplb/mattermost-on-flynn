@@ -36,6 +36,8 @@ Just set the environment variable `TYPE` to the version to update to. A redeploy
 
 ## Further Configuration
 
+*Please note that the configuration set in the System Console is not persistent and won't survive a restart of the Flynn container! All configuration must be done via environment variables!*
+
 Any setting from the configuration json file can be overwritten via environment variables. They have a specific scheme to address the configuration key:
 
 `MM_<rootKey>_<childKey>(_<moreChildKeys)`
