@@ -1,7 +1,7 @@
 import os
 import json
 
-configJSON=open("defaultConfig.json").read()
+configJSON=open("mattermost/config/default.json").read()
 config = json.loads(configJSON)
 
 for envVar in os.environ:
