@@ -65,6 +65,8 @@ export MM_SqlSettings_DataSource=${MM_SqlSettings_DataSource:-"\""$DATABASE_URL?
 
 So they are always present. But the SqlSettings can be overridden just by setting `MM_SqlSettings_DriverName` and `MM_SqlSettings_DataSource`.
 
+See `flynn log` for any other errors if things don't work out as expected. Example: MM_TeamSettings_SiteName can only have a length of 30 characters.
+
 ## License
 
 This software is licensed under the
