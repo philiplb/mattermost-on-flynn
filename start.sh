@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export MM_ServiceSettings_ListenAddress=$PORT
+export MM_ServiceSettings_ListenAddress="\":$PORT\""
 
 python createConfig.py
 
