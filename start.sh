@@ -1,7 +1,7 @@
 #!/bin/bash
 
 TYPE=${TYPE:-"team"}
-VERSION=${VERSION:-"5.1.1"}
+VERSION=${VERSION:-"5.2.0"}
 FILE=mattermost-$TYPE-$VERSION-linux-amd64.tar.gz
 URL=https://releases.mattermost.com/$VERSION/$FILE
 echo "Downloading $URL"

@@ -28,7 +28,7 @@ git push flynn master
 
 ## Version and Type
 
-By default, version 5.1.1 is installed as type "team". You can override this by setting the environment variables `VERSION` (any valid Mattermost version) and `TYPE` ("team" or "enterprise").
+By default, version 5.2.0 is installed as type "team". You can override this by setting the environment variables `VERSION` (any valid Mattermost version) and `TYPE` ("team" or "enterprise").
 
 ## Updates
 
