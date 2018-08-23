@@ -6,11 +6,11 @@ a [Flynn](http://flynn.io/) cluster.
 
 ## Setup
 
-Create an application as usual and set the available disk space to 200MB:
+Create an application as usual and set the available disk space to 1GB:
 
 ```bash
 flynn create mattermost
-flynn limit set web temp_disk=200MB
+flynn limit set web temp_disk=1GB
 ```
 
 And add a PostgreSQL appliance: 
